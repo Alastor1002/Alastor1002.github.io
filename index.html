@@ -82,7 +82,7 @@
         </header>
 
         <div class="about-grid">
-          <div class="about-text reveal">
+          <div class="about-text reveal" style="font-weight: bold;">
             <p>Soy Ingeniero en Desarrollo de Videojuegos y Realidad Virtual. Me muevo entre el arte y la programación: en mis proyectos universitarios fui artista conceptual, líder de arte, modelador 3D y animador, y también programé sistemas de diálogo, mecánicas, enemigos y niveles.</p>
             <p>Este portafolio reúne los juegos que desarrollé en la universidad y mi trabajo personal de ilustración y diseño de personajes.</p>
             <ul class="stickers" aria-label="Áreas de trabajo">
@@ -442,7 +442,7 @@
             <button class="zoom" type="button" data-group="m3d" data-caption="Orco" aria-haspopup="dialog"><img src="img/3d-orco.webp" width="900" height="506" loading="lazy" decoding="async" alt="Modelo 3D de un orco verde con mohicano morado y lanza"></button>
             <figcaption>Orco</figcaption>
           </figure>
-          <figure class="scene reveal">
+          <figure class="scene model reveal">
             <button class="zoom" type="button" data-group="m3d" data-caption="Cavernícola" aria-haspopup="dialog"><img src="img/3d-cavernicola.png" width="900" height="506" loading="lazy" decoding="async"></button>
             <figcaption>Cavernicola</figcaption>
           </figure>
@@ -459,7 +459,39 @@
             <figcaption>Sala arcade, otra vista</figcaption>
           </figure>
         </div>
-      </div>
+        
+        <!-- Subsección 2: Animaciones 3D en loop -->
+        <h3 class="group-title on-black reveal">Animaciones</h3>
+        <div class="scenes anim-grid">
+          <figure class="scene model reveal">
+            <video class="anim-video"
+                  autoplay loop muted playsinline
+                  width="1920" height="1080">
+              <source src="video/raptor-idle.webm" type="video/webm">
+              Tu navegador no soporta videos HTML5.
+            </video>
+            <figcaption>Idle · Velociraptor</figcaption>
+          </figure>
+          <figure class="scene model reveal">
+            <video class="anim-video"
+                  autoplay loop muted playsinline
+                  width="1920" height="1080">
+              <source src="video/raptor-walk.webm" type="video/webm">
+              Tu navegador no soporta videos HTML5.
+            </video>
+            <figcaption>Walk · Velociraptor</figcaption>
+          </figure>
+          <figure class="scene model reveal">
+            <video class="anim-video"
+                  autoplay loop muted playsinline
+                  width="1920" height="1080">
+              <source src="video/raptor-run.webm" type="video/webm">
+              Tu navegador no soporta videos HTML5.
+            </video>
+            <figcaption>Run · Velociraptor</figcaption>
+          </figure>
+        </div>
+        
     </section>
 
     <!-- ============ CONTACTO ============ -->

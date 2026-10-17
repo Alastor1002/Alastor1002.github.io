@@ -590,3 +590,27 @@ dialog::backdrop { background: rgba(5, 5, 8, .92); }
   .js .poster.reveal.p3 { transform: rotate(-1.5deg); }
   .btn, .zoom img, .gallery .zoom, .more > summary .chev { transition: none; }
 }
+
+
+/* Centrado de videos de animaciones 3D */
+.anim-grid {
+  justify-items: center;
+}
+
+.anim-grid .scene {
+  width: 100%;
+  max-width: 580px;
+}
+
+.anim-video {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 900 / 506;
+  object-fit: contain;
+  object-position: center;
+}
+
+.scene.model {
+  background: radial-gradient(circle at 50% 35%, #454b5c 0%, #1c2029 80%);
+}
